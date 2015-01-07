@@ -41,4 +41,23 @@ class tiger{
 	public$gender= "male";
 	public$price=10;
 }
+
+class cat{
+	public $firstName = "tom";
+	public $lastName = "smith";
+	public $gender = "male";
+	public $price = "25";
+}
+class fish{
+	public $firstName = "bob";
+	public $lastName = "tomas";
+	public $gender = "male";
+	public $price = "50";
+}
+class tiger{
+	public $firstName = "will";
+	public $lastName = "wildcat";
+	public $gender = "male";
+	public $price = "100";
+}
 ?>
