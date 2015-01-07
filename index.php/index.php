@@ -114,4 +114,11 @@ public $breed;
 	“{$this­>lastName}”;
 	}
 }
+	//EXAMPLE:2
+$cat1 = new Cat(“Tom”, “Smith”, “PersianCat”);
+print “Cat 1: {$cat1­>getName()}\n;
+$fish1 = new Fish(“Bob”, “Tomas”, “Goldfish”);
+print “Fish 1: {$fish1­>getName()}\n;
+$tiger1 = new Tiger(“Will”, “Wildcat”, “SiberianTiger”);
+print “Tiger 1: {$tiger1­>getName()}\n;
 ?>
