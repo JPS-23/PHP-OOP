@@ -63,7 +63,7 @@ class tiger{
 	public $price = 100;
 }
 	//EXAMPLE:5
-	public function myMethod( $argument, $another) {
+	function myMethod( $argument, $another) {
 }
 ?>
 -------------------------------------------------------------------------------------------------------------------------------
@@ -124,10 +124,12 @@ print “Tiger 1: {$tiger1­>getName()}\n;
 ?>
 -----------------------------------------------------------------------------------------------------------------------------
 <?php
+$a = false;
+$b = 0;
+
 if (is_bool($a) === true) {
     echo "Yes, this is a boolean";
 }
-
 
 if (is_bool($b) === false) {
     echo "No, this is not a boolean";
