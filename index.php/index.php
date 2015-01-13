@@ -1,4 +1,4 @@
-<?php
+<?php /*
 	//EXAMPLE:1
 class cat{
 	//class color
@@ -64,10 +64,10 @@ class tiger{
 }
 	//EXAMPLE:5
 	function myMethod( $argument, $another) {
-}
+} */
 ?>
 -------------------------------------------------------------------------------------------------------------------------------
-<?php
+<?php /*
 	//EXAMPLE:1
 class Cat {
 public $firstName;
@@ -120,10 +120,10 @@ print “Cat 1: {$cat1­>getName()}\n;
 $fish1 = new Fish(“Bob”, “Tomas”, “Goldfish”);
 print “Fish 1: {$fish1­>getName()}\n;
 $tiger1 = new Tiger(“Will”, “Wildcat”, “SiberianTiger”);
-print “Tiger 1: {$tiger1­>getName()}\n;
+print “Tiger 1: {$tiger1­>getName()}\n;*/
 ?>
 -----------------------------------------------------------------------------------------------------------------------------
-<?php
+<?php /*
 $a = false;
 $b = 0;
 
@@ -157,4 +157,5 @@ $obj->students = array('Kalle', 'Ross', 'Felipe');
 
 var_dump(get_students(null));
 var_dump(get_students($obj));
+*/
 ?>
