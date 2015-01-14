@@ -57,7 +57,49 @@ class Animal {
 	function getName() {
 		return "This is my" .$this->$firstName .
 				"and last" .$this->$lastName .
-				"and this is my scientific-name" .$this->scientificName .".";
+				"and this is my scientific-name" .$this->$scientificName .".";
+		}
+}
+/**
+* 
+*/
+class Cat extends Animal{
+	
+	function __construct($scientificName, $firstName, $lastName, $gender, $weight, $meow){
+			parent::__construct($scientificName, $firstName, $lastName, $gender, $weight);
+	$this->meow = $meow;
+	}
+	function greet() {
+	return $this->meow;
+	}
+}
+
+class Dog extends Animal {
+	function __construct($scientificName, $firstName, $lastName, $gender, $weight, $bark) {
+			parent::__construct($scientificName, $firstName, $lastName, $gender, $weight);
+	$this->bark = $bark;
+	}
+}
+
+$cat = new Cat("Cat", "Mellow", "Yellow", "male", 15, true);
+print "Animal 1 is a" .$cat->getName();
+
+//Example 2
+class Car {
+	public $color;
+	public $catagory;
+	public $carMaker;
+
+	function __construct($color, $catagory, $carMaker) {
+		$this->scientificName = $color;
+		$this->firstName = $catagory;
+		$this->lastName = $carMaker;
+	}
+
+	function getName() {
+		return "This car's color is" .$this->$color .
+				"and catagory is" .$this->$catagory .
+				"and this is its make" .$this->$carMaker .".";
 		}
 }
 /**
